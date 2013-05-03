@@ -32,20 +32,19 @@ You should include:
 The HTML to switch should take the form:
 
 	<div id="switchwidth-example">
-		<div data-jqsw-hidden data-jqsw-max-width="399px">
-			Less than 400px
+		<div>
+			Largest
 		</div>
 		<div data-jqsw-hidden data-jqsw-max-width="799px">
 			Less than 800px
 		</div>
-		<div>
-			Largest
+		<div data-jqsw-hidden data-jqsw-max-width="399px">
+			Less than 400px
 		</div>
 	</div>
 
 The object will switch between its immediate children.
-These should be set up from smallest to largest.
-Your default state should be last in the list - this is currently also the largest width (this may be relaxed in future versions).
+These can be set up in any order, but there should be one default (i.e. without data-jqsw-max-width)
 
 Switchwidth should be applied in a code block, within a jQuery $( document ).ready() declaration. This code should also be added *after* the jQuery include.
 

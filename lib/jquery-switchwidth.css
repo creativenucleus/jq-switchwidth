@@ -1,4 +1,4 @@
-div[data-jqsw-hidden] {
+*[data-jqsw-hidden] {
 
 	display: none;
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>jQuery-Switchwidth Demo</title>
+		<link rel="stylesheet" type="text/css" href="default.css">
+		<link rel="stylesheet" type="text/css" href="../lib/jquery-switchwidth.css">
+	</head>
+	<body>
+		<h1>jQuery-Switchwidth Demo</h1>
+		
+		<div id="switchwidth-example">
+			<div data-jqsw-hidden data-jqsw-max-width="399px">
+				Less than 400px
+			</div>
+			<div data-jqsw-hidden data-jqsw-max-width="799px">
+				Less than 800px
+			</div>
+			<div>
+				Largest
+			</div>
+		</div>
+		<div id="right-div">
+			Row sibling
+		</div>
+		
+		<!-- Scripts -->
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>		
+		<script type="text/javascript" src="../lib/jquery-switchwidth.js"></script>
+		<script>
+			$( document ).ready( function() {
+				
+				$( '#switchwidth-example' ).switchwidth();
+			});
+		</script>
+	</body>
+</html>

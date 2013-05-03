@@ -14,6 +14,10 @@ Sometimes this isn't flexible enough - sometimes you need to alter the content o
 
 As a use case, perhaps you have a search widget with tabs at the top. On desktop this looks fine, but on mobile this scrunches up too far, or (worse) spreads over two lines [this happens with jQuery-ui], and you'd prefer that to be replaced with something more usable or attractive.
 
+## Release Log
+
+1.0RC1 - First version; looks like it works, but untested. Feedback please!
+
 ## Dependencies
 
 [jQuery](http://jquery.com/) (should work with most versions)
